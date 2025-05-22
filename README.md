@@ -40,10 +40,10 @@ mvn spring-boot:run
 ## 🗂️ Estrutura de Pastas
 
 notificacao/ <br>
-├── controller/        # Rotas da API REST <br>
-├── service/           # Lógica de negócio <br>
-├── repository/        # Acesso ao banco de dados <br>
-├── model/             # Entidades JPA <br>
+├── controller/          # Rotas da API REST <br>
+├── service/             # Lógica de negócio <br>
+├── repository/          # Acesso ao banco de dados <br>
+├── model/               # Entidades JPA <br>
 ├── resources/ <br>
 │   └── application.properties <br>
 └── NotificacaoApplication.java <br>
