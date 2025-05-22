@@ -23,3 +23,38 @@ Criar um sistema que verifique diariamente informações de clientes e notifique
 
 ```bash
 git clone https://github.com/SEU_USUARIO/notificacao.git
+````
+2. Navegue até a pasta do projeto:
+
+```bash
+cd notificacao
+```
+
+3. Execute o projeto no IntelliJ (ou via terminal):
+
+```bash
+./mvnw spring-boot:run
+mvn spring-boot:run
+```
+
+## 🗂️ Estrutura de Pastas
+
+notificacao/
+├── controller/        # Rotas da API REST
+├── service/           # Lógica de negócio
+├── repository/        # Acesso ao banco de dados
+├── model/             # Entidades JPA
+├── resources/
+│   └── application.properties
+└── NotificacaoApplication.java
+
+## 📅 Agendamento
+O sistema usa @Scheduled para simular notificações automáticas a cada 30 segundos.
+Mensagens são exibidas no console simulando envios de alertas.
+
+💡 Futuras melhorias
+Integração com serviço de e-mail
+
+Interface Web para cadastro e monitoramento
+
+
