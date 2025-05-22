@@ -40,13 +40,13 @@ mvn spring-boot:run
 ## 🗂️ Estrutura de Pastas
 
 notificacao/
-├── controller/        # Rotas da API REST
-├── service/           # Lógica de negócio
-├── repository/        # Acesso ao banco de dados
-├── model/             # Entidades JPA
-├── resources/
-│   └── application.properties
-└── NotificacaoApplication.java
+├── controller/        # Rotas da API REST <br>
+├── service/           # Lógica de negócio <br>
+├── repository/        # Acesso ao banco de dados <br>
+├── model/             # Entidades JPA <br>
+├── resources/ <br>
+│   └── application.properties <br>
+└── NotificacaoApplication.java <br>
 
 ## 📅 Agendamento
 O sistema usa @Scheduled para simular notificações automáticas a cada 30 segundos.
